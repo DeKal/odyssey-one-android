@@ -1,0 +1,214 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    >
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--<GridView-->
+    <!--android:id="@+id/gripColor"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:verticalSpacing="10dp"-->
+    <!--android:horizontalSpacing="0dp"-->
+    <!--android:numColumns="1"-->
+    <!--android:stretchMode="columnWidth"-->
+    <!--android:background="#fff"-->
+    <!--android:gravity="center"-->
+    <!--/>-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#009688" />
+
+        <LinearLayout
+            android:layout_weight="4.5"
+            android:background="@color/disable"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleViewImport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#009688" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content">
+            <ImageButton
+
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btnRefreshAlbum"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/refresh"
+                android:textColor="#ffffff" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/deleteImageImport"
+                android:background="@color/white"
+                android:src="@drawable/delete"
+                android:layout_toLeftOf="@+id/addImageImport"
+                android:layout_height="30dp" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/addImageImport"
+                android:background="@drawable/add"
+                android:layout_toLeftOf="@+id/folderImport"
+                android:layout_height="30dp" />
+            <ImageView
+                android:id="@+id/folderImport"
+                android:layout_width="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/folder"
+                android:layout_toLeftOf="@+id/repeatImport"
+                android:layout_height="40dp" />
+            <ImageView
+                android:id="@+id/repeatImport"
+                android:layout_marginTop="5dp"
+                android:layout_width="30dp"
+                android:background="@color/white"
+                android:src="@drawable/replay"
+                android:layout_alignParentRight="true"
+                android:layout_height="30dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:layout_height="0dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/txtsendingtype"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center_vertical"
+                    android:text="Clicking type"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content">
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:id="@+id/radioGroupSendingTypeImport"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:id="@+id/radioSingleImport"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:text="Send"
+                        />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:id="@+id/radioAllImport"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:text="View Detail"
+                        />
+                </RadioGroup>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/txtInvertImport"
+                    android:layout_width="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Invert "
+                    android:textColor="@color/colorPrimary" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+                <Switch
+                    android:id="@+id/swInvertImport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:layout_height="0dp">
+            <Button
+                android:gravity="center"
+                android:id="@+id/btnsendAllImport"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:layout_width="200dp"
+                android:textColor="#ffffff"
+                android:text="Send All"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+

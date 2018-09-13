@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Graphicial Waterfall</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_van">Number of valves: </string>
+    <string-array name="number_van">
+        <item>32</item>
+        <item>64</item>
+        <item>96</item>
+        <item>128</item>
+        <item>160</item>
+        <item>192</item>
+        <item>224</item>
+        <item>256</item>
+        <item>288</item>
+        <item>320</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="action_sign_in">Sign in or register</string>-->
+    <string name="logout">Logout</string>
+    <string name="Settings">Settings</string>
+    <string name="Administrations">Administrations</string>
+    <string name="login_btnLogin">Login</string>
+    <string name="login_user">UserName</string>
+    <string name="login_forgotpass">Forgot Password?</string>
+    <string name="login_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--CustomerMain-->
+    <string name="finished_work">Finished Work</string>
+    <string name="current_work">Current Work</string>
+    <string name="waiting_progress">Waiting Progress</string>
+    <string name="work_in_progress">Works In Progress</string>
+    <string name="recent_work_done">Recent Work Done</string>
+    <string name="create_new_work">Create New Work</string>
+    <string name="work_history">Work History</string>
+    <!--AdminMain-->
+    <string name="customer_request">Customer Request</string>
+    <string name="new_request_works">New Request Works</string>
+    <string name="pending_requests_works">Pending Requests Works</string>
+    <string name="employee_tracking">Employee Tracking</string>
+    <string name="available_employee">Available Employee</string>
+    <string name="in_progress">In Progress</string>
+    <string name="customer">Customer</string>
+    <string name="employee">Employee</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="work_title">Work Title</string>
+
+    <string name="task_list">Task List</string>
+    <string name="add">Add</string>
+    <string name="estimate_price">Estimate Price</string>
+    <string name="expected_time">Expected Time</string>
+    <string name="duration">Duration</string>
+    <string name="work_location">Work Location</string>
+    <string name="new_modify_work">New/Modify Work</string>
+
+    <string name="contact">Contact</string>
+    <string name="work_status">Work Status</string>
+    <string name="start_working">Start Working</string>
+    <string name="summary">Summary</string>
+    <string name="feedback_comment">Feedback/Comment</string>
+    <string name="Start_time">Start time</string>
+    <string name="not_start_yet">Not start yet</string>
+    <string name="waiting">Waiting</string>
+    <string name="all_task_has_done">All tasks have done</string>
+    <string name="task_explaintion_why_it_not">Task explaintion why it not</string>
+    <string name="back">Back</string>
+    <string name="chart">Chart</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="line_char">Line chart</string>
+    <string name="pie_chart">Pie chart</string>
+    <string name="employee_location">Employee Location</string>
+    <string name="all_employees_location">All Employees Locations</string>
+    <string name="task_name">Task Name</string>
+    <string name="work_item_detail">Work Iteam Detail</string>
+    <string name="price">Price</string>
+    <string name="payment">PayMent</string>
+    <string name="finished_time">Finished Time</string>
+    <string name="task_picture_report">Task Picture Report</string>
+    <string name="rating">Rating</string>
+    <string name="description">Description</string>
+    <string name="create_new_task">Create New Task</string>
+
+</resources>

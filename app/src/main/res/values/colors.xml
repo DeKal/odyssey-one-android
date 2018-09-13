@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#125656</color>
+    <color name="colorPrimaryDark">#bf1b4141</color>
+    <color name="colorAccent">#269999</color>
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="disable" type="color">#d3d3d3</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+    <item name="transparent" type="color">#00000000</item>
+    <item name="white" type="color">#ffffff</item>
+    <item name="black" type="color">#000000</item>
+
+    <array name="androidcolors">
+        <item>@color/colorPrimary</item>
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+        <item>@color/disable</item>
+        <item>@color/transparent</item>
+    </array>
+
+    <string-array name="valvesEnable">
+        <item><![CDATA[<font >320 </font>]]></item>
+        <item><![CDATA[<font >288 </font>]]></item>
+        <item><![CDATA[<font >256 </font>]]></item>
+        <item><![CDATA[<font >224</font>]]></item>
+        <item><![CDATA[<font >192 </font>]]></item>
+        <item><![CDATA[<font >160 </font>]]></item>
+        <item><![CDATA[<font >128 </font>]]></item>
+        <item><![CDATA[<font >96</font>]]></item>
+        <item><![CDATA[<font >64 </font>]]></item>
+        <item><![CDATA[<font >32 </font>]]></item>
+        <item><![CDATA[<font >16 </font>]]></item>
+        <item><![CDATA[<font >8 </font>]]></item>
+    </string-array>
+
+    <string-array name="valvesDisable">
+        <item><![CDATA[<font color="#D3D3D3">320 </font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">288 </font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">256 </font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">224</font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">192 </font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">160 </font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">128 </font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">96</font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">64 </font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">32 </font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">16 </font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">8 </font>]]></item>
+
+    </string-array>
+
+    <string-array name="languagesEnable">
+    <item><![CDATA[<font color="#269999">English</font>]]></item>
+    <item><![CDATA[<font color="#269999">Vietnamese</font>]]></item>
+    <item><![CDATA[<font color="#269999">Japanese</font>]]></item>
+    </string-array>
+
+    <string-array name="languagesDisable">
+        <item><![CDATA[<font color="#D3D3D3">English </font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">Vietnamese </font>]]></item>
+        <item><![CDATA[<font color="#D3D3D3">Japanese </font>]]></item>
+
+    </string-array>
+
+    <string-array name="FormatClockEnable">
+        <item><![CDATA[<font >"hh:mm"</font>]]></item>
+        <item><![CDATA[<font >"hh:mm tt"</font>]]></item>
+        <item><![CDATA[<font >"hh:mm:ss"</font>]]></item>
+        <item><![CDATA[<font >"hh:mm:ss tt"</font>]]></item>
+        <item><![CDATA[<font >"dd-MM-yyyy"</font>]]></item>
+
+    </string-array>
+
+</resources>

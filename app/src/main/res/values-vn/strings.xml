@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Graphicial Waterfall</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_van">Number of valves: </string>
+    <string-array name="number_van">
+        <item>32</item>
+        <item>64</item>
+        <item>96</item>
+        <item>128</item>
+        <item>160</item>
+        <item>192</item>
+        <item>224</item>
+        <item>256</item>
+        <item>288</item>
+        <item>320</item>
+    </string-array>
+
+    <string name="logout">Thoát</string>
+    <string name="Settings">Cài Đặt</string>
+    <string name="Administrations">Quản Lý</string>
+    <string name="login_user">Tên đăng nhập</string>
+    <string name="login_password">Mật khẩu</string>
+    <!--<string name="action_sign_in">Sign in or register</string>-->
+    <string name="action_sign_in_short">Đăng nhập</string>
+    <string name="login_btnLogin">Đăng Nhập</string>
+    <string name="login_forgotpass">Quên Mật Khẩu?</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Mật khẩu quá ngắn</string>
+    <string name="error_incorrect_password">Mật khẩu không đúng</string>
+    <string name="error_field_required">Không được bỏ trống</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--CustomerMain-->
+    <string name="finished_work">Hoàn Tất</string>
+    <string name="current_work">Hiện Tại</string>
+    <string name="waiting_progress">Việc Đang Chờ</string>
+    <string name="work_in_progress">Việc Đang Làm</string>
+    <string name="recent_work_done">Việc Vừa Rồi</string>
+    <string name="create_new_work">Tạo Việc</string>
+    <string name="work_history">Lược Sử</string>
+
+    <!--AdminMain-->
+    <string name="customer_request">Yêu cầu khách hàng</string>
+    <string name="new_request_works">Công việc yêu cầu mới</string>
+    <string name="pending_requests_works">Yêu cầu đang chờ xử lý</string>
+    <string name="Employee_tracking">Theo dõi nhân viên</string>
+    <string name="available_employee">Nhân viên có sẵn</string>
+    <string name="in_progress">Đang xử lý </string>
+    <string name="customer">Khách hàng</string>
+    <string name="employee">Nhân viên</string>
+
+</resources>

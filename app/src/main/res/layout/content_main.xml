@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/framelayout_for_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tan_pc.navigationdraweractivity.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <!--<include-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/rHome"-->
+        <!--layout="@layout/fragment_home"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <!--<include-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/rClock"-->
+        <!--layout="@layout/fragment_clock"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <!--<include-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/rPaint"-->
+        <!--layout="@layout/fragment_paint"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <!--<include-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/rSettings"-->
+        <!--layout="@layout/fragment_settings"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <!--<include-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/rDisplayText"-->
+        <!--layout="@layout/fragment_display_text"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <!--<include-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/rImport"-->
+        <!--layout="@layout/fragment_import"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <RelativeLayout
+        android:id="@+id/rHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+        android:visibility="gone"
+        layout="@layout/fragment_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rDisplayText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+        android:visibility="gone"
+        layout="@layout/fragment_display_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rClock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+        android:visibility="gone"
+        layout="@layout/fragment_clock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </RelativeLayout>
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/rPaint"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--&lt;!&ndash;<include&ndash;&gt;-->
+        <!--&lt;!&ndash;android:visibility="gone"&ndash;&gt;-->
+        <!--&lt;!&ndash;layout="@layout/fragment_paint"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent" />&ndash;&gt;-->
+    <!--</RelativeLayout>-->
+    <RelativeLayout
+        android:id="@+id/rSettings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+        android:visibility="gone"
+        layout="@layout/fragment_settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rImport"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+        android:visibility="gone"
+        layout="@layout/fragment_import"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rAdminMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:visibility="gone"
+            layout="@layout/fragment_admin_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rCustomerMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:visibility="gone"
+            layout="@layout/fragment_customer_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rEmployeeMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:visibility="gone"
+            layout="@layout/fragment_employee_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+</FrameLayout>
